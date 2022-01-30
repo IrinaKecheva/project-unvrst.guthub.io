@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(https://images.wallpaperscraft.ru/image/single/pyatna_fon_linii_abstrakciya_66994_1920x1080.jpg);
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.616);
+}
+
+.box {
+  /* коробка */
+  width: 300px;
+  padding: 45px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  height: 86%;
+}
+.box:hover {
+  /* анимация на коробке */
+  width: 300px;
+  padding: 45px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  box-shadow: 1px 1px 15px 1px black;
+  transition: 0.5s;
+}
+.box h1 {
+  /* заголовок в коробке */
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 30px;
+}
+
+.but {
+  /* окна */
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(194, 23, 23);
+  padding: 15px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.but:focus {
+  /* продолжение к окнам */
+  width: 270px;
+  border-color: red;
+}
+.button {
+  /* кнопка */
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid rgb(194, 23, 23);
+  padding: 15px 40px;
+  width: 200;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.button:hover {
+  /* дополнение к кнопке */
+  background: rgb(194, 23, 23);
+}
